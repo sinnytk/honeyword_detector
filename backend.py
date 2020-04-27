@@ -47,7 +47,7 @@ def login(username_log, password_log):
         file_list = os.listdir(cur_dir)
         parent_dir = os.path.dirname(cur_dir)
         if file_name in file_list:
-            print("User exixts")
+            print("User exists")
             f = open(file_name, "r")
             data = f.read()
             x = data.split(" ")
